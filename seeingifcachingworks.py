@@ -30,7 +30,7 @@ def get_items(page_number):
         fw.close()
     return CACHE_DICTION[page_number_full]
 
-for i in range(0,5):
+for i in range(1,311):
     try:
         get_items(i)
     except:
